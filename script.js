@@ -19,8 +19,14 @@ if(texteTâche !==""){
     listitem.appendChild(deleteBtn);
     deleteBtn.addEventListener("click",()=>{
         listitem.remove();
-
-});
+    });
+    //bouton finir 
+    const finis =document.createElement("button");
+    finis.textContent="finis bravo!"
+    listitem.appendChild(finis);
+    finis.addEventListener("click",()=>{
+        listitem.style.color = "green";
+    });
     
 }else{
     alert("veuiller entrer une tâche valide")

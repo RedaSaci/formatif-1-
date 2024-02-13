@@ -1,5 +1,8 @@
 body{
     font-family: Arial,  sans-serif;
+    background-image: url(/img/to-do-list.jpeg);
+  
+    background-size: cover;
 }
 .container{
     max-width: 400px;
@@ -8,4 +11,11 @@ body{
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+    align-items: center;
+   
 }
+h1{text-align: center;}
+
+button{border: double;}
+button:hover{transition: 0.5s;
+background-color: aqua;}
